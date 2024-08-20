@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto Slab", serif;
+    margin: 0px;
+    background-color: #29222C;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+    padding: 0px 0px;
+    background-color: #352F37;
+}
+
+nav a {
+    display: inline-block;
+    width: 120px;
+    color: #E4E1E5;
+    text-decoration: none;
+    width: 120px;
+    padding: 25px 0px;
+    height: fit-content;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav a:hover {
+    background-color: #221e24;
+}
+
+footer {
+    background-color: #2B4646;
+    color: #E4E1E5;
+    margin-top: 1000px;
+    margin-bottom: -19px;
+}
+
+.hero-image {
+    margin-top: -20px;
+    background-image:
+        url("TePuiaResources/20240626_111235.jpg");
+    height: 867px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.logo {
+
+    width: 132px;
+    height: 68px;
+    top: 2px;
+    left: 10px;
+    position: absolute;
+}
+
+.hero-text {
+    margin-top: 20px;
+    font-size: 80px;
+    color: #E4E1E5;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #221e24;
+}
+.text-image{
+    background-color: #352F37;
+    padding-bottom: 500px;
+    padding-top: 20px;
+}
+.gallery-image{
+    width: 950px;
+    height: 540px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+h2{
+   margin-top: 0px;
+   margin-bottom: 5px;
+   color: #e3e3e3;
+   text-align: center;
+}
+.gallery-text{
+    overflow: hidden;
+    color: #E3E3E3;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    font-size: 20px;
+}
