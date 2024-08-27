@@ -97,7 +97,7 @@ h2{
 
     background-color: #473b4b;
     margin-top: 10px;
-    padding-top: 0;
+    padding-top: 10px;
     padding-bottom: 15px;
 }
 .attractions-text{
@@ -107,7 +107,7 @@ h2{
     margin-left: 20px;
     font-size: 20px;
     margin-right: 1000px;
-    line-height: 40px;
+    line-height: 39px;
     
 
 }
@@ -121,4 +121,14 @@ h2{
 .attractions-title{
     margin: 10px;
     
+}
+.hero-image2 {
+    margin-top: -20px;
+    background-image:
+        url("TePuiaResources/20240626_101530.jpg");
+    height: 848px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
 }
