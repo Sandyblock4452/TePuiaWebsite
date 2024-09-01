@@ -56,6 +56,7 @@ footer {
 }
 
 .hero-text {
+  
   margin-top: 20px;
   font-size: 80px;
   color: #e4e1e5;
@@ -63,16 +64,24 @@ footer {
   -webkit-text-stroke-color: #221e24;
 }
 .text-image {
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
   background-color: #352f37;
+  justify-content: start;
+  /*
   padding-bottom: 280px;
   padding-top: 20px;
+  */
 }
 .gallery-image {
+  order: 1;
   width: 950px;
   height: 540px;
   float: left;
   margin-right: 10px;
   margin-left: 20px;
+  flex-shrink: 4;
 }
 h2 {
   margin-top: 0px;
@@ -81,6 +90,7 @@ h2 {
   text-align: center;
 }
 .gallery-text {
+  order: 2;
   overflow: hidden;
   color: #e3e3e3;
   text-align: left;
@@ -90,26 +100,38 @@ h2 {
   line-height: 40px;
 }
 .image-text {
+  display: flex;
+  flex-direction: row;
   background-color: #473b4b;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
+  justify-content: start;
+
 }
 .attractions-text {
+  order: 1;
   overflow: hidden;
   color: #e3e3e3;
   text-align: left;
+  font-size: 20px ;
+  width: 500 ;
+  /*
   margin-left: 20px;
-  font-size: 20px;
+  
   margin-right: 1000px;
   line-height: 39px;
+  */
 }
 .attractions-image {
+  order: 2;
   width: 950px;
   height: 540px;
   float: right;
+  /*
   margin-top: -555px;
   margin-right: 20px;
+  */
 }
 .attractions-title {
   margin: 10px;
