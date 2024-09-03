@@ -104,8 +104,10 @@ h2 {
   flex-direction: row;
   background-color: #473b4b;
   margin-top: 10px;
+  /*
   padding-top: 10px;
   padding-bottom: 15px;
+  */
   justify-content: start;
 
 }
@@ -115,13 +117,8 @@ h2 {
   color: #e3e3e3;
   text-align: left;
   font-size: 20px ;
-  width: 500 ;
-  /*
-  margin-left: 20px;
-  
-  margin-right: 1000px;
+  width: 1000px;
   line-height: 39px;
-  */
 }
 .attractions-image {
   order: 2;
@@ -144,4 +141,63 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10px;
+}
+.gallery-textpg{
+  overflow: hidden;
+  color: #e3e3e3;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.gallery-photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color:#29222c;
+  gap: 200px;
+  row-gap: 50px;
+  padding-bottom: 30px;
+}
+.gallery1{
+  margin-left: 55px;
+  order: 1;
+  width: 300px;
+  height: 500px;
+}
+.gallery2{
+  order: 2;
+  width: 300px;
+  height: 500px;
+}
+.gallery3{
+  order: 3;
+  width: 300px;
+  height: 500px;
+}
+.gallery4{
+  order: 4;
+  width: 300px;
+  height: 500px;
+}
+.gallery5{
+  margin-left: 55px;
+  order: 5;
+  width: 300px;
+  height: 500px;
+}
+.gallery6{
+  order: 6;
+  width: 300px;
+  height: 500px;
+}
+.gallery7{
+  order: 7;
+  width: 300px;
+  height: 500px;
+}
+.gallery8{
+  order: 8;
+  width: 300px;
+  height: 500px;
 }
