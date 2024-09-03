@@ -119,6 +119,9 @@ h2 {
   font-size: 20px ;
   width: 1000px;
   line-height: 39px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 .attractions-image {
   order: 2;
@@ -154,10 +157,12 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color:#29222c;
+  background-color: #221e24;
   gap: 200px;
   row-gap: 50px;
   padding-bottom: 30px;
+  padding-top: 30px;
+
 }
 .gallery1{
   margin-left: 55px;
@@ -200,4 +205,76 @@ h2 {
   order: 8;
   width: 300px;
   height: 500px;
+}
+.hero-image3{
+  margin-top: -20px;
+  background-image: url("TePuiaResources/20240626_104344.jpg");
+  height: 848px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.geyser{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #221e24;
+}
+.geyser_img{
+  order: 1;
+  width: 950px;
+  height: 540px;
+}
+.geyser_text{
+  order: 2;
+  color: #e4e1e5;
+  text-align: left;
+  width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.kiwi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #352f37;
+}
+.kiwi_img{
+  order: 2;
+  width: 950px;
+  height: 540px;
+}
+.kiwi_text{
+  order: 1;
+  color: #e4e1e5;
+  text-align: left;
+  width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.mudpool{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #473b4b;
+}
+.mudpool_img{
+  order: 1;
+  width: 950px;
+  height: 540px;
+}
+.mudpool_text{
+  order: 2;
+  color: #e4e1e5;
+  text-align: left;
+  width: 1000px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  line-height: 30px;
 }
