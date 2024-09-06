@@ -76,8 +76,8 @@ footer {
 }
 .gallery-image {
   order: 1;
-  width: 950px;
-  height: 540px;
+  width: 50%;
+  height: default;
   float: left;
   margin-right: 10px;
   margin-left: 20px;
@@ -125,8 +125,8 @@ h2 {
 }
 .attractions-image {
   order: 2;
-  width: 950px;
-  height: 540px;
+  width: 50%;
+  height: default;
   float: right;
   /*
   margin-top: -555px;
@@ -167,44 +167,44 @@ h2 {
 .gallery1{
   margin-left: 55px;
   order: 1;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery2{
   order: 2;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery3{
   order: 3;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery4{
   order: 4;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery5{
   margin-left: 55px;
   order: 5;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery6{
   order: 6;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery7{
   order: 7;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .gallery8{
   order: 8;
-  width: 300px;
-  height: 500px;
+  width: 15%;
+  height: default;
 }
 .hero-image3{
   margin-top: -20px;
@@ -223,8 +223,8 @@ h2 {
 }
 .geyser_img{
   order: 1;
-  width: 950px;
-  height: 540px;
+  width: 50%;
+  height: default;
 }
 .geyser_text{
   order: 2;
@@ -244,14 +244,14 @@ h2 {
 }
 .kiwi_img{
   order: 2;
-  width: 950px;
-  height: 540px;
+  width: 50%;
+  height: default;
 }
 .kiwi_text{
   order: 1;
   color: #e4e1e5;
   text-align: left;
-  width: 1000px;
+  width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   font-size: 20px;
@@ -265,14 +265,14 @@ h2 {
 }
 .mudpool_img{
   order: 1;
-  width: 950px;
-  height: 540px;
+  width: 50%;
+  height: default;
 }
 .mudpool_text{
   order: 2;
   color: #e4e1e5;
   text-align: left;
-  width: 1000px;
+  width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   font-size: 20px;
